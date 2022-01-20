@@ -20,6 +20,7 @@ body {
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    color: #fff;
 
 }
 
@@ -27,16 +28,20 @@ body {
     padding: 10px 20px;
     text-align: center;
     font-size: 2rem;
-    box-shadow: 5px 5px 15px #00000050;
+    box-shadow: 0 0 10px #00000090;
+    background-color: transparent;
     border-radius: 15px;
     border: none;
+    color: inherit;
 }
 
 #results {
-    background-color: steelblue;
+    background-color: transparent;
     border-radius: 15px;
     margin: 5vh 0;
     padding: 20px;
-    color: #fff;
-    box-shadow: 5px 5px 15px #00000050;
+    box-shadow: 0 0 10px #00000090;
+}
+#results p{
+    margin-bottom: 5px;
 }
